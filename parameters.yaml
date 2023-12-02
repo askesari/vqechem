@@ -1,0 +1,25 @@
+# The first 10 lines are reserved for comments. PLEASE DO NOT REMOVE THEM.
+# Allowed optimizer_label values: L-BFGS-B (default), COBYLA
+# Allowed mapper values: P (default, represents parity), JW (represents Jordan-Wigner)
+# Allowed entanglement_type values: full, linear (default)
+# Allowed noise_model_device values: "FakeVigo", "FakeAthens", "FakeManila"
+# Allowed enable_debug values: 0, 1
+# 
+#
+#
+#
+
+lih_molecule:
+  interatomic_distance: 1.4
+  remove_orbitals: [3, 4]
+  z2symmetry_reduction: #[-1, 1]
+  rotations: "ry"
+  entanglement: "cx"
+  entanglement_type: "linear"
+  depth: 2
+  optimizer_label: "L-BFGS-B"
+  optimizer_maxiter: 50
+  mapper: "P"
+  noise_model_device: "FakeVigo"
+  enable_debug: 1
+    

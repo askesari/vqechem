@@ -1,0 +1,8 @@
+qiskit==0.38.0
+qiskit-nature==0.4.5
+qiskit_experiments==0.4.0
+pyscf==2.1.1
+PyYAML==6.0
+mthree==1.1.0
+matplotlib==3.6.0
+pylatexenc==2.10
