@@ -92,6 +92,7 @@ Following files should be present in the folder after successful execution of th
 - run_energy_estimator.py
 
 > Note: Installation and execution of the package has been tested on unix/linux operating system.
+> Note: The qiskit account credentials must be stored on the machine on which the code is installed and executed. Refer to IBM Qiskit help to identify how qiskit account credentials can be stored locally
 
 ## Usage
 
@@ -115,13 +116,13 @@ The above program will create the following output at the end of the execution.
 
 Additionally, the ansatz circuit and one of the transpiled circuits (for both ideal and noisy simulators) will be created in the ./output folder. A sample Ansatz circuit is as follows.
 
-![Ansatz](./ansatz.png)
+![ansatz](https://github.com/askesari/vqechem/assets/13076705/a4c50acf-c618-4697-abb5-1e9516b2a583)
 
 A sample transpiled circuit for noisy simulator is as follows.
 
-![Transpiled Circuit-0](./transCircuitNoisy_0.png)
+![transCircuitNoisy_0](https://github.com/askesari/vqechem/assets/13076705/e2de9be5-86e8-4f65-8054-31d78d204035)
 
-> Note: Executing the program will create an output and and logs folders within the current directory.
+> Note: Executing the program will create an output and logs folders within the current directory.
 
 ### Advanced usage
 
