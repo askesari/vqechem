@@ -67,31 +67,10 @@ Following command can be used to install the Matplotlib library.
     pip install matplotlib==3.6.0
     pip install pylatexenc==2.10 
 
-Alternatively, one can install all the necessary prerequisite packages and libraries by executing the following command. The requirements.txt file is provided along with the installable package.
+Alternatively, one can install all the necessary prerequisite packages and libraries by executing the following command. The requirements.txt file is provided in the repository.
 
     pip install -r requirements.txt
 
-## Installation
-
-The installation package is a zipped tar ball energyEstimator.tar.gz
-To install the package:
-1. Copy the installation package to an appropriate location on the machine.
-2. Activate the newly created or existing environment that contains all the prerequisite packages and libraries.
-3. Extract the tar ball using the command
-
-        tar -zxvf energyEstimator.tar.gz
-
-Following files should be present in the folder after successful execution of the above command.
-
-- GroundStateEnergyEstimation.py
-- logconfig.py
-- M3Mitigation.py
-- parameters.yaml
-- QcExecution.py
-- requirements.txt
-- run_energy_estimator.py
-
-> Note: Installation and execution of the package has been tested on unix/linux operating system.
 > Note: The qiskit account credentials must be stored on the machine on which the code is installed and executed. Refer to IBM Qiskit help to identify how qiskit account credentials can be stored locally
 
 ## Usage
